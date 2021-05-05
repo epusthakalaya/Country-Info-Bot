@@ -1,4 +1,4 @@
-# Country-Info-Bot
+# SL-Country-Info-Bot 🇱🇰
 A simple country information bot
 
 ```
