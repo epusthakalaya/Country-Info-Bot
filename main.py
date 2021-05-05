@@ -21,7 +21,7 @@ FayasNoushad = Client(
 )
 
 START_TEXT = """
-Hello {}, I am a country information finder bot. Give me a country name I will send the informations of the country.
+Hello {}, I am a SL country information finder bot 🇱🇰. Give me a country name I will send the informations of the country.
 
 Made by @FayasNoushad
 """
@@ -35,9 +35,9 @@ Name, Native Name, Capital, Population, Region, Sub Region, Top Level Domains, C
 Made by @FayasNoushad
 """
 ABOUT_TEXT = """
-- **Bot :** `Country Info Bot`
-- **Creator :** [Fayas](https://telegram.me/TheFayas)
-- **Channel :** [Fayas Noushad](https://telegram.me/FayasNoushad)
+- **Bot :** `SL Country Info Bot 🇱🇰`
+- **Creator :** [MADUSHANKA](https://t.me/Madushanka_bro)
+- **Channel :** [E PUSTHAKALAYA BOTs™](https://t.me/epusthakalaya_bots)
 - **Source :** [Click here](https://github.com/FayasNoushad/Country-Info-Bot/tree/main)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram](https://pyrogram.org)
@@ -45,8 +45,8 @@ ABOUT_TEXT = """
 """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Channel', url='https://telegram.me/FayasNoushad'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/TheFayas')
+        InlineKeyboardButton('Channel', url='https://t.me/epusthakalaya_bots'),
+        InlineKeyboardButton('Feedback', url='https://t.me/Madushanka_bro')
         ],[
         InlineKeyboardButton('Help', callback_data='help'),
         InlineKeyboardButton('About', callback_data='about'),
@@ -120,14 +120,16 @@ Calling Codes : `{country.calling_codes()}`
 Currencies : `{country.currencies()}`
 Residence : `{country.demonym()}`
 Timezone : `{country.timezones()}`
+POWERED BY;
+@epusthakalaya_bots
 """
     reply_markup=InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Wikipedia', url=f'{country.wiki()}'),
         InlineKeyboardButton('Google', url=f'https://www.google.com/search?q={country.name()}')
         ],[
-        InlineKeyboardButton('Channel', url='https://telegram.me/FayasNoushad'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/TheFayas')
+        InlineKeyboardButton('Channel', url='https://t.me/epusthakalaya_bots'),
+        InlineKeyboardButton('Feedback', url='https://t.me/Madushanka_bro')
 
         ]]
     )
